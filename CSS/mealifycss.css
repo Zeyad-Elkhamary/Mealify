@@ -100,7 +100,7 @@ body:has(.nav-links:target) .navBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 100%;
 }
 
 .left a::after {
@@ -695,10 +695,10 @@ color: var(--main-color);
     display: flex;
     border-radius: 6px;
     list-style-type: none;
-justify-content: center;
+justify-content: space-around;
 }
 .footer .commnuication li{
-margin: 5px 20px ;
+margin: 5px 0 ;
 }
 
 .center-footer{
